@@ -1,0 +1,43 @@
+header img{
+ 
+  border: ridge yellow 10px;
+  margin: auto;
+  display: block;
+
+}
+body{
+	background: #1fa38d;
+}
+
+li{
+
+   display: block;
+   padding: 15px;
+   float: left;
+   background: yellow;
+
+   
+}
+li:hover:not(.active) {
+    background-color: #399e28;
+}
+ul{
+	list-style-type: none;
+    margin: 10;
+    padding: 0;
+    overflow: hidden;
+    background-color: yellow;
+}
+
+a{
+	color: #080707;
+    font: oblique bold 120% cursive;
+}
+p img {
+	margin: 10px;
+	padding: 10px;
+}
+h1{
+	text-align: center;
+	color: 
+}
