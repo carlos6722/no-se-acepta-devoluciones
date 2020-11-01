@@ -1,0 +1,200 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+header img{
+ 
+  border: ridge yellow 10px;
+  margin: auto;
+  display: block;
+}
+header{
+	padding: 5px;
+	margin: 5px;
+}
+body{
+	background: #1fa38d;
+}
+
+li{
+   padding: 15px;
+   float: left;
+   background: yellow;   
+}
+li:hover:not(.active) {
+    background-color: #399e28;
+}
+ul{
+	list-style-type: none;
+    margin: 10;
+    padding: 0;
+    overflow: hidden;
+    background-color: yellow;
+}
+
+a{
+	color: #080707;
+    font: oblique bold 120% cursive;
+}
+p img {
+	margin: 5px;
+	padding: 10px;
+}
+h1{
+	text-align: center;
+	margin: 10px;
+}
+p{
+	padding: 10px;
+
+}
+.p1{
+	font-size: 20px;
+	text-align: center;	
+}
+
+div.caja1{
+	border: solid 1px black;
+	float: left;
+	margin: 5px;
+	width: 300px;
+}
+div.caja1 img{
+	width: 100%;
+	height: auto;
+}
+div.caja1:hover{
+	border: 1px solid yellow;
+}
+div.com{
+	text-align: center;
+	padding: 15px;
+}
+footer {
+	 padding: 10px;
+	 width: 100%;
+	 background-color: #48544c;	
+}
+footer a{
+	text-decoration: none;
+	float: right;
+}
+td{
+	border: 2px solid black;
+
+}
+table{
+	text-align: center;
+	width: 50%;
+}
+form{
+	background-color:#fffb00;
+	padding: 5px;
+	margin: 10px;
+	width: 35%;
+}
+input[type=submit]{
+	padding: 10px;
+	margin: 5px;
+}
+@media screen and (min-width: 1000px) {
+	header img{
+ 
+  border: ridge yellow 10px;
+  margin: auto;
+  display: block;
+  width: 20%;
+}
+header{
+	padding: 5px;
+	margin: 5px;
+}
+body{
+	background: #1fa38d;
+}
+p{
+	font-size: 30px;
+}
+li{
+   padding: 15px;
+   float: left;
+   background: yellow;   
+}
+li:hover:not(.active) {
+    background-color: #399e28;
+}
+ul{
+	list-style-type: none;
+    margin: 10;
+    padding: 0;
+    overflow: hidden;
+    background-color: yellow;
+}
+
+a{
+	color: #080707;
+    font: oblique bold 120% cursive;
+}
+p img {
+	margin: 5px;
+	padding: 10px;
+}
+h1{
+	text-align: center;
+	margin: 10px;
+}
+p{
+	padding: 10px;
+
+}
+.p1{
+	font-size: 20px;
+	text-align: center;	
+}
+
+div.caja1{
+	border: solid 1px black;
+	float: left;
+	margin: 5px;
+	width: 300px;
+}
+div.caja1 img{
+	width: 100%;
+	height: auto;
+}
+div.caja1:hover{
+	border: 1px solid yellow;
+}
+div.com{
+	text-align: center;
+	padding: 15px;
+}
+td{
+	border: 2px solid black;
+
+}
+table{
+	text-align: center;
+	width: 100%;
+}
+form{
+	background:yellow;
+	padding: 5px;
+	margin: 5px;
+	width: 95%;
+}
+input[type=submit]{
+	padding: 10px;
+	margin: 5px;
+}
+img{
+	width: 90%;
+}	
+iframe{
+	width: 435px;
+	height:300px; 
+}
+h1,h2,h3,h4{
+	font-size: 35px;
+}
+}
